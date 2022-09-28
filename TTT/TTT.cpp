@@ -436,20 +436,20 @@ static bool getComputerMove(TicTacToe::Entry computer, TicTacToe& t)
 
     do {
 
-        if (t.isPotentialVictory(t.PLAYER_TWO) == true)
+        /*if (t.isPotentialVictory(t.PLAYER_TWO) == true)
         {
             t.comWin(t.PLAYER_TWO);
             break;
-        }
+        }*/
 
-        else if (t.isPotentialVictory(t.PLAYER_ONE) == true)
+        /*else if (t.isPotentialVictory(t.PLAYER_ONE) == true)
         {
             t.plaWin(t.PLAYER_ONE);
             break;
-        }
+        }*/
 
         // choose center
-        else if (t.board[1][1] == t.EMPTY)
+        /*else*/ if (t.board[1][1] == t.EMPTY)
         {
             t.board[1][1] = (char)computer;
             break;
