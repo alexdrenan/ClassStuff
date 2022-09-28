@@ -1,0 +1,4 @@
+﻿  TTT.cpp
+D:\GitHubRepos\ClassStuff\TTT\TTT.cpp(268): warning C4715: 'TicTacToe::comWin': not all control paths return a value
+D:\GitHubRepos\ClassStuff\TTT\TTT.cpp(353): warning C4715: 'TicTacToe::plaWin': not all control paths return a value
+  TTT.vcxproj -> D:\GitHubRepos\ClassStuff\TTT\Debug\TTT.exe
